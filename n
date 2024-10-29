@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ミニRPGゲーム</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ミニRPGゲーム</h1>
+    <div id="game">
+        <div id="player">😃</div>
+        <div id="enemy">👹</div>
+    </div>
+    <button onclick="movePlayer('left')">←</button>
+    <button onclick="movePlayer('up')">↑</button>
+    <button onclick="movePlayer('down')">↓</button>
+    <button onclick="movePlayer('right')">→</button>
+
+    <script src="game.js"></script>
+</body>
+</html>
